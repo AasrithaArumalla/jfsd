@@ -1,0 +1,70 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "name": "Canon EOS 200D Camera",
+      "category": "Media",
+      "code": "MDC-014",
+      "condition": "Good",
+      "location": "Media Room",
+      "holder": "Aarav Mehta",
+      "status": "Assigned"
+    },
+    {
+      "id": 2,
+      "name": "JBL PartyBox Speaker",
+      "category": "Events",
+      "code": "EVT-008",
+      "condition": "Excellent",
+      "location": "Store Room A",
+      "holder": "Unassigned",
+      "status": "Available"
+    },
+    {
+      "id": 3,
+      "name": "Robotics Toolkit",
+      "category": "Technical",
+      "code": "TEC-021",
+      "condition": "Fair",
+      "location": "Innovation Lab",
+      "holder": "Ishita Rao",
+      "status": "Assigned"
+    },
+    {
+      "id": 4,
+      "name": "Club Banner Set",
+      "category": "Branding",
+      "code": "BRD-003",
+      "condition": "Good",
+      "location": "Store Room B",
+      "holder": "Unassigned",
+      "status": "Available"
+    }
+  ],
+  "handovers": [
+    {
+      "id": 1,
+      "assetId": 1,
+      "from": "Aarav Mehta",
+      "to": "Diya Nair",
+      "club": "Photography Club",
+      "dueDate": "2026-09-25",
+      "notes": "Return with charged battery and SD card.",
+      "condition": "Good",
+      "status": "Pending approval",
+      "createdAt": "2026-09-21"
+    },
+    {
+      "id": 2,
+      "assetId": 3,
+      "from": "Ishita Rao",
+      "to": "Kabir Shah",
+      "club": "Robotics Club",
+      "dueDate": "2026-09-19",
+      "notes": "Kit is complete except one Allen key.",
+      "condition": "Fair",
+      "status": "Completed",
+      "createdAt": "2026-09-15"
+    }
+  ]
+}

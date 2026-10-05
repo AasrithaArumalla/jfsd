@@ -1,0 +1,9 @@
+{
+  "name": "club-asset-handover-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "College club asset handover system",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
